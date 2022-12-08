@@ -1,0 +1,54 @@
+.modal_wrapper {
+  width: 70%;
+  margin: 0 auto;
+  margin-top: -130px;
+}
+
+.modal_wrapper.close {
+  display: none;
+  height: 0;
+}
+
+.modal_wrapper.open {
+  display: block;
+  height: 119%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  background-color: rgba(47, 47, 47, 0.677);
+}
+
+.modal_body {
+  max-width: 495px;
+  height: 200px;
+  margin: auto;
+  background-color: white;
+  margin-top: 250px;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-evenly;
+  align-items: center;
+}
+
+.modal_close {
+    margin-top: -24px;
+    margin-right: -472px;
+    font-size: 30px;
+    cursor: pointer;
+  }
+
+.new_book {
+    display: flex;
+    flex-direction: column;
+    height: 60%;
+    justify-content:space-evenly;
+}
+
+button {
+    width: 150px;
+}
+
